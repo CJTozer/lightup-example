@@ -1,0 +1,3 @@
+[submodule "lightup-py"]
+	path = lightup-py
+	url = https://github.com/CJTozer/lightup-py
