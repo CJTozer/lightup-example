@@ -11,6 +11,7 @@ LIGHTUP_DIR="lightup"
 git = sh.git.bake(_cwd=os.path.dirname(__file__))
 print(git.submodule.update("--init", "--recursive", LIGHTUP_DIR))
 
+# Now use the code to install itself!
 sys.path.insert(0, LIGHTUP_DIR)
 from lightup import Lightup
 
